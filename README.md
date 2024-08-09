@@ -84,17 +84,23 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2
     "password":"123"
 }
 ```
-Mostrar todos  los usuarios
+</p>
+##Mostrar todos  los usuarios
 GET
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
 
-Buscar  por  id 
+##Buscar  por  id 
+</p>
 GET
+</p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2b83cb301716c41e10
-
-Eliminar el usuario
+</p>
+##Eliminar el usuario
+</p>
 DELETE
+</p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app
+</p>
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
