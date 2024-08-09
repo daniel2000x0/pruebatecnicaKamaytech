@@ -39,6 +39,7 @@ Ingreso de un  usuario  o  registro
 POST
 </p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
+</p>
 ```bash
 {
    "name": "dani",
@@ -49,10 +50,12 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
     "password":"123"
 }
 ```
-Login Usuario
-
+##Login Usuario
+</p>
 POST
+</p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/auth/login
+</p>
 ```bash
 {
   "email": "mariaa@gmail.com",
