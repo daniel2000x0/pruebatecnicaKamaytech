@@ -40,7 +40,7 @@ POST
 </p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
 </p>
-```ruby
+```bash
 {
    "name": "dani",
     "email": "daniel@gmail.com",
