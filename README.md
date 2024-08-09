@@ -31,6 +31,13 @@
 $ npm install
 ```
 
+## Run Server
+
+```bash
+$  npm run start  
+```
+   
+
 <h1> Ejecucion del proyecto</h1>
 Se  recomienda  uso  de  postman para las  pruebas
 Operaciones CRUD
