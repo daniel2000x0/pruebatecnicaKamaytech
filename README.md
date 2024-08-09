@@ -51,9 +51,9 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
 ##Login Usuario
 </p>
 POST
-</p>
+
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/auth/login
-</p>
+
 ```bash
 {
   "email": "mariaa@gmail.com",
