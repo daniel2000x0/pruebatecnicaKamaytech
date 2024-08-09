@@ -40,13 +40,11 @@ POST
 </p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
 </p>
-```bash
+```ruby
 {
    "name": "dani",
     "email": "daniel@gmail.com",
-    
     "age": 25,
-   
     "password":"123"
 }
 ```
@@ -59,7 +57,6 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/auth/login
 ```bash
 {
   "email": "mariaa@gmail.com",
-
     "password":"123"
 }
 ```
@@ -73,14 +70,11 @@ Actualizacion  de Usuario
 PUT
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2b83cb301716c41e10
 
-```bash
+```ruby
 {
    "name": "abel",
-  
     "email": "daniel@gmail.com",
-    
     "age": 25,
-   
     "password":"123"
 }
 ```
