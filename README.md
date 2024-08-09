@@ -31,7 +31,7 @@
 $ npm install
 ```
 
-## ejecucion del proyecto
+<h1> Ejecucion del proyecto</h1>
 Se  recomienda  uso  de  postman para las  pruebas
 Operaciones CRUD
 Ingreso de un  usuario  o  registro
@@ -69,7 +69,7 @@ example
  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYxZDA3ZDYyODk1ZjhmZjI0ZjA3MiIsIm5hbWUiOiJhYmVsIiwiaWF0IjoxNzIzMjI3Njk4LCJleHAiOjE3MjMyOTk2OTh9._y5UQ3rEm2ZBXg2XDAtKColYbrXhkXbxZntKTcYtTgE"
 ```
 </p>
-## Actualizacion  de Usuario
+<h1></h1> Actualizacion  de Usuario</p>h1>
 </p>
 PUT
 </p>
@@ -84,19 +84,19 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2
 }
 ```
 </p>
-##Mostrar todos  los usuarios
+<h1>Mostrar todos  los usuarios</h1>
 </p>
 GET
 </p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
 </p>
-## Buscar  por  id 
+<h1>Buscar  por  id </h1>
 </p>
 GET
 </p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2b83cb301716c41e10
 </p>
-## Eliminar el usuario
+<h1>Eliminar el usuario</h1> 
 </p>
 DELETE
 </p>
