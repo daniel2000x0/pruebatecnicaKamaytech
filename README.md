@@ -32,7 +32,8 @@ $ npm install
 ```
 
 ## ejecucion del proyecto
-Se  recomienda  uso  de  postman para las  pruebas 
+Se  recomienda  uso  de  postman para las  pruebas
+Operaciones CRUD
 Ingreso de un  usuario  o  registro
 POST
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
@@ -46,7 +47,49 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
     "password":"123"
 }
 ```
+Login Usuario
 
+POST
+https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/auth/login
+```bash
+{
+  "email": "mariaa@gmail.com",
+
+    "password":"123"
+}
+```
+El proceso  de login genera  un token el token  generado de  debe  ser ingresado  en bearer token en caso  de postman para   realizar las  siguientes pruebas
+example
+```bash
+ "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYxZDA3ZDYyODk1ZjhmZjI0ZjA3MiIsIm5hbWUiOiJhYmVsIiwiaWF0IjoxNzIzMjI3Njk4LCJleHAiOjE3MjMyOTk2OTh9._y5UQ3rEm2ZBXg2XDAtKColYbrXhkXbxZntKTcYtTgE"
+```
+
+Actualizacion  de Usuario
+PUT
+https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2b83cb301716c41e10
+
+```bash
+{
+   "name": "abel",
+  
+    "email": "daniel@gmail.com",
+    
+    "age": 25,
+   
+    "password":"123"
+}
+```
+Mostrar todos  los usuarios
+GET
+https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
+
+Buscar  por  id 
+GET
+https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2b83cb301716c41e10
+
+Eliminar el usuario
+DELETE
+https://pruebatecnicakamaytech-production-0ffc.up.railway.app
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
