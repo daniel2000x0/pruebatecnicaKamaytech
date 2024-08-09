@@ -68,9 +68,11 @@ example
 ```bash
  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYxZDA3ZDYyODk1ZjhmZjI0ZjA3MiIsIm5hbWUiOiJhYmVsIiwiaWF0IjoxNzIzMjI3Njk4LCJleHAiOjE3MjMyOTk2OTh9._y5UQ3rEm2ZBXg2XDAtKColYbrXhkXbxZntKTcYtTgE"
 ```
-
+</p>
 Actualizacion  de Usuario
+</p>
 PUT
+</p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2b83cb301716c41e10
 
 ```ruby
@@ -83,9 +85,11 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2
 ```
 </p>
 ##Mostrar todos  los usuarios
+</p>
 GET
+</p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
-
+</p>
 ##Buscar  por  id 
 </p>
 GET
