@@ -70,7 +70,7 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/auth/login
     "password":"123"
 }
 ```
-El proceso  de login genera  un token el token  generado de  debe  ser ingresado  en bearer token en caso  de postman para   realizar las  siguientes pruebas
+El proceso  de login genera  un token ,el token  generado de  debe  ser ingresado  en bearer token en Authorization en caso  de postman para   realizar las  siguientes pruebas para validar las operaciones  CRUD
 example
 ```bash
  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYxZDA3ZDYyODk1ZjhmZjI0ZjA3MiIsIm5hbWUiOiJhYmVsIiwiaWF0IjoxNzIzMjI3Njk4LCJleHAiOjE3MjMyOTk2OTh9._y5UQ3rEm2ZBXg2XDAtKColYbrXhkXbxZntKTcYtTgE"
