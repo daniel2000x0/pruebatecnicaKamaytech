@@ -107,7 +107,7 @@ https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5bf2
 </p>
 DELETE
 </p>
-https://pruebatecnicakamaytech-production-0ffc.up.railway.app
+https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/user/66b5a40b83cb301716c41e0a
 </p>
 ## Support
 
