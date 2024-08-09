@@ -72,7 +72,7 @@ export class PersonaController {
 
       const newPersona = await this.personaService.update(id, updatePersona);
       return response.status(HttpStatus.CREATED).json({
-        message: 'Person has been created successfully',
+        message: 'User has been created successfully',
         newPersona,
       });
 
@@ -91,7 +91,7 @@ export class PersonaController {
       try{
         const personaData = await  this.personaService.findAll();
         return response.status(HttpStatus.OK).json({
-          message: 'All persons data found successfully',
+          message: 'All user data found successfully',
           personaData,
         });
        
@@ -106,7 +106,7 @@ export class PersonaController {
       try {
         const existingPerson = await this.personaService.findOne(id);
         return response.status(HttpStatus.OK).json({
-          message: 'Person found successfully',
+          message: 'User found successfully',
           existingPerson,
         });
       } catch (err) {
@@ -120,7 +120,7 @@ export class PersonaController {
       try {
         const deletedPerson = await this.personaService.delete(id);
         return response.status(HttpStatus.OK).json({
-          message: 'Person deleted successfully',
+          message: 'User deleted successfully',
           deletedPerson,
         });
       } catch (err) {
