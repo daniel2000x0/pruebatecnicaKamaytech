@@ -69,7 +69,7 @@ example
  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYxZDA3ZDYyODk1ZjhmZjI0ZjA3MiIsIm5hbWUiOiJhYmVsIiwiaWF0IjoxNzIzMjI3Njk4LCJleHAiOjE3MjMyOTk2OTh9._y5UQ3rEm2ZBXg2XDAtKColYbrXhkXbxZntKTcYtTgE"
 ```
 </p>
-<h1></h1> Actualizacion  de Usuario</p>h1>
+<h1>Actualizacion  de Usuario</h1>
 </p>
 PUT
 </p>
