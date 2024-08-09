@@ -35,7 +35,9 @@ $ npm install
 Se  recomienda  uso  de  postman para las  pruebas
 Operaciones CRUD
 Ingreso de un  usuario  o  registro
+</p>
 POST
+</p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
 ```bash
 {
