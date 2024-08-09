@@ -40,8 +40,11 @@ POST
 </p>
 https://pruebatecnicakamaytech-production-0ffc.up.railway.app/users/users
 </p>
+
+
+
 ```bash
-{
+ {
    "name": "dani",
     "email": "daniel@gmail.com",
     "age": 25,
